@@ -1,12 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style src="/style.css"></style>
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>موقعي الحديث</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">MODERN</div>
+        <ul class="nav-links">
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#about">حول</a></li>
+          <li><a href="#services">الخدمات</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>مرحباً بك</h1>
+          <p>اكتشف عالم التصميم الحديث والتقنيات المتقدمة</p>
+          <button class="btn btn-primary">ابدأ الآن</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2>خدماتنا</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🎨</div>
+            <h3>التصميم</h3>
+            <p>تصاميم حديثة واحترافية تناسب عملك</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>تطوير ويب</h3>
+            <p>مواقع سريعة وموثوقة بأحدث التقنيات</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">📱</div>
+            <h3>التطبيقات</h3>
+            <p>تطبيقات متوافقة مع جميع الأجهزة</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>عن الموقع</h2>
+        <div class="about-content">
+          <p>
+            نحن نقدم حلولاً ديجيتال متكاملة تساعدك على تحقيق أهدافك. مع فريق
+            محترف وخبرة عملية، نضمن أفضل النتائج.
+          </p>
+          <div class="features">
+            <div class="feature">
+              <span class="check">✓</span>
+              <span>تصاميم مبتكرة</span>
+            </div>
+            <div class="feature">
+              <span class="check">✓</span>
+              <span>دعم 24/7</span>
+            </div>
+            <div class="feature">
+              <span class="check">✓</span>
+              <span>أسعار منافسة</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>تواصل معنا</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="الاسم" required />
+          <input type="email" placeholder="البريد الإلكتروني" required />
+          <textarea placeholder="رسالتك" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">إرسال</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 جميع الحقوق محفوظة | موقعي الحديث</p>
+      </div>
+    </footer>
+  </body>
 </html>
